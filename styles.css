@@ -1,0 +1,27 @@
+header{
+    display:flex;
+    justify-content:center;
+    background-color: #63B3ED;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+h1{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title{
+    font-size: 32px;
+    color: #48BB78;
+    margin-bottom: 0px;
+}
+
+.author{
+    color: #718096;
+    margin: auto;
+}
+footer{
+    background-color: #2C5282;
+    color: #FFFFFF;
+}
