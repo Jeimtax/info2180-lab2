@@ -2,17 +2,10 @@
     display: grid;
     grid-template-columns: minmax(0, 1fr) 320px;
     grid-template-rows: auto 1fr auto;
-    gap: 30px;
+    gap: 40px;
     margin: 0 auto;
     max-width: 1100px;
 }
-
-.title-img{
-    height: 200px;
-    width: 200px;
-    border-radius: 200px;
-}
-
 
 header{
     grid-column: 1/3;
@@ -25,6 +18,12 @@ header{
     color: #FFFFFF;
     padding: 36px 24px;
     
+}
+
+.title-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
 }
 
 header h1{
@@ -40,14 +39,36 @@ header p{
 main{
     grid-column: 1;
     grid-row: 2;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 
-.wrap{
+.wrap-img1{
     width: 200px;
     height: 200px;
     float: right;
     border-radius: 10px;
+}
+.wrap-img2{
+    width: 210px;
+    height: 180px;
+    float: left;
+    border-radius: 10px;
+    
+}
+
+.title{
+    font-size: 32px;
+    color: #48BB78;
+    margin-bottom: 0px;
+}
+
+h4{
+    margin-bottom: 0;
+ }
+
+.author{
+    color: #718096;
+    margin: auto;
 }
 
 aside{
@@ -89,20 +110,6 @@ footer{
     width: 100%;
     background-color: #2C5282;
     color: #FFFFFF;
-    text-indent: 100px;
-}
-
-
-    
-
-.title{
-    font-size: 32px;
-    color: #48BB78;
-    margin-bottom: 0px;
-}
-
-.author{
-    color: #718096;
-    margin: auto;
+    text-indent: 150px;
 }
 
